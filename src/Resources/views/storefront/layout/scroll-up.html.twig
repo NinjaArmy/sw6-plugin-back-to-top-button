@@ -1,0 +1,12 @@
+{% sw_extends '@Storefront/storefront/layout/scroll-up.html.twig' %}
+{% block layout_scroll_up_button %}
+	<div class="scroll-up-button js-scroll-up-button">
+		<button type="submit" class="btn btn-primary" style="--ninja-bg-color-active: {{config('NINJABackToTopButton.config.OnClickColor')}}; --ninja-bg-color: {{config('NINJABackToTopButton.config.ButtonColor')}}; border-color: {{config('NINJABackToTopButton.config.BorderColor')}} ">
+			{% block layout_scroll_up_button_icon %}
+				<span style="--ninja-arrow-color: {{config('NINJABackToTopButton.config.ArrowColor')}}">
+					{% sw_icon 'arrow-up' style { 'size': 'sm' } %}
+				</span>
+			{% endblock %}
+		</button>
+	</div>
+{% endblock %}

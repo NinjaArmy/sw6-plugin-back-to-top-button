@@ -1,0 +1,32 @@
+{
+    "name": "ninja/back-to-top-button-plugin",
+    "description": "Plugin to change colors of the back to top button",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Ninja Army (Joschi Mehta)"
+        }
+    ],
+    "require": {
+        "shopware/core": ">=6.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NINJA\\BackToTopButton\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "NINJA\\BackToTopButton\\NINJABackToTopButton",
+        "copyright": "(c) by Ninja Army",
+        "label": {
+            "de-DE": "Back-To-Top Button Color",
+            "en-GB": "Back-To-Top-Button Farbe"
+        },
+        "description": {
+            "de-DE": "Um die Farben des Buttons anzupassen",
+            "en-GB": "To change the colors of the button"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.scroll-up-button {
+    .btn-primary {
+        background-color: var(--ninja-bg-color);
+        span {
+           .icon-arrow-up {
+                color: var(--ninja-arrow-color);
+           }
+        }  
+    }
+
+    .btn-primary:not(:disabled):not(.disabled):active {
+        background-color: var(--ninja-bg-color-active);
+    }
+    
+    .btn-primary:focus {
+        box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 50%);
+    }
+
+    .btn-primary:not(:disabled):not(.disabled):active:focus {
+        box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 50%);
+    }
+}

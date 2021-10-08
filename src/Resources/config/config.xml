@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+      <title>Basic Configuration</title>
+        <title lang="de-DE">Grundeinstellungen</title>
+
+         <input-field type="colorpicker">
+            <name>ButtonColor</name>
+            <label>Button Color</label>
+            <label lang="de-DE">Button Farbe</label>
+            <helpText>You can define the background color of the back-to-top button here.</helpText>
+            <helpText lang="de-DE">Hier können Sie die Hintergrundfarbe des Back-To-Top Buttons definieren.</helpText>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>ArrowColor</name>
+            <label>Arrow Color</label>
+            <label lang="de-DE">Pfeil Farbe</label>
+            <helpText>You can define the arrow Color here.</helpText>
+            <helpText lang="de-DE">Hier können Sie die Pfeilfarbe definieren.</helpText>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>BorderColor</name>
+            <label>Border Color</label>
+            <label lang="de-DE">Randfarbe</label>
+            <helpText>You set a border color here. This is not necessary</helpText>
+            <helpText lang="de-DE">Hier können Sie die Randfarbe definieren. Dies ist nicht notwendig.</helpText>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>OnClickColor</name>
+            <label>Color on click</label>
+            <label lang="de-DE">Farbe beim Klick</label>
+            <helpText>If someone clicks the button the color of the button can change. Define that color here.</helpText>
+            <helpText lang="de-DE">Wenn jemand auf den Button klickt kann die Farbe sich verändern. Definieren Sie die Farbe hier.</helpText>
+        </input-field>
+
+    </card>
+</config>
